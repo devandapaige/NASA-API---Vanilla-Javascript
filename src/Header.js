@@ -2,11 +2,11 @@
 import React from "react";
 function Header() {
   return (
-    <header>
-      <h1 className="headerStretched">NASA Photo of the Day</h1>
+    <header className="header">
+      <h1 className="siteName">NASA Photo of the Day</h1>
       <img
+        className="logo"
         src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg"
-        className="nasaLogo"
         alt="NASA logo"
       />
     </header>

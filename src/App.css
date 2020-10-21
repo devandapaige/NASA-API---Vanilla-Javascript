@@ -34,7 +34,21 @@
 /*Nasa blue: #0B3D91
 Nasa red: #FC3D21
 contrast light blue: #5D7FB9*/
-.headerStretched {
+body {
+  margin: 0;
   background-color: black;
   color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.siteName {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.logo {
+  width: 15%;
+  padding: 10px;
 }

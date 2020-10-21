@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
 import PhotoOTD from "./PhotoOTD";
-
+const mainBody = document.createElement("div");
+mainBody.style = "width: 80%;";
 function MainContent() {
-  return <div className="main-content"><PhotoOTD /></div>;
+  return (
+    <mainBody>
+      <PhotoOTD />
+    </mainBody>
+  );
 }
 export default MainContent;
