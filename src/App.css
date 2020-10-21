@@ -42,6 +42,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  border-bottom: solid 3px #5d7fb9;
 }
 .siteName {
   background-color: black;
@@ -51,4 +52,21 @@ body {
 .logo {
   width: 15%;
   padding: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  padding: 10px;
+  border-top: solid 3px #5d7fb9;
+}
+.footer a {
+  color: #5d7fb9;
+  text-decoration: none;
+}
+.footer a:visited {
+  color: #5d7fb9;
+  text-decoration: none;
 }
