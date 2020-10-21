@@ -53,12 +53,21 @@ body {
   width: 15%;
   padding: 10px;
 }
+.main {
+  text-align: center;
+}
+.day {
+  text-align: center;
+}
+.photoOTD {
+  width: 80%;
+}
+.photoInfo {
+  width: 75%;
+}
 .footer {
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  bottom: 0;
-  width: 96%;
   padding: 10px;
   border-top: solid 3px #5d7fb9;
 }
