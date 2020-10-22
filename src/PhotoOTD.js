@@ -1,6 +1,18 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
+import styled from "styled-components";
+const imgPhotoOTD = styled.img`
+  width: 80%;
+`;
+const photoTitle = styled.h4`
+  color: #5d7fb9;
+`;
+const copyright = styled.p`
+  padding: 0 10%;
+`;
+const photoInfo = styled.p`
+  padding: 0 12%;
+`;
 function PhotoOfTheDay() {
   let [data, setData] = useState({});
   useEffect(() => {
@@ -16,10 +28,10 @@ function PhotoOfTheDay() {
   console.log(data);
   return (
     <>
-      <img className="photoOTD" src={data.hdurl} alt={data.title}></img>
-      <h4 className="photoTitle">{data.title}</h4>
-      <p className="copyright">Copyright: {data.copyright}</p>
-      <p className="photoInfo">{data.explanation}</p>
+      <imgPhotoOTD src={data.hdurl} alt={data.title}></imgPhotoOTD>
+      <photoTitle>{data.title}</photoTitle>
+      <copyright>Photo Copyright: {data.copyright}</copyright>
+      <photoInfo>{data.explanation}</photoInfo>
     </>
   );
 }
