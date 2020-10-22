@@ -31,28 +31,6 @@
     transform: rotate(360deg);
   }
 }
-/*Nasa blue: #0B3D91
-Nasa red: #FC3D21
-contrast light blue: #5D7FB9*/
-body {
-  margin: 0;
-  background-color: black;
-  color: white;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: solid 3px #5d7fb9;
-}
-.siteName {
-  background-color: black;
-  color: white;
-  padding: 10px;
-}
-.logo {
-  width: 15%;
-  padding: 10px;
-}
 .main {
   text-align: center;
 }
