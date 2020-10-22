@@ -2,17 +2,12 @@
 //Nasa blue: #0B3D91 / Nasa red: #FC3D21 / contrast light blue: #5D7FB9*//
 import React from "react";
 import styled from "styled-components";
-styled.body`
-  margin: 0;
-  background-color: black;
-  color: white;
-`;
 const headerStyle = styled.header`
   display: flex;
   justify-content: space-between;
   border-bottom: solid 3px #5d7fb9;
 `;
-const siteName = styled.header`
+const siteName = styled.h1`
   padding: 10px;
 `;
 const logo = styled.img`

@@ -1,14 +1,20 @@
 import React from "react";
-import "./App.css";
+import styled from "styled-components";
 import PhotoOTD from "./PhotoOTD";
 import DatePicker from "./DatePicker";
+const main = styled.div`
+  text-align: center;
+`;
+const day = styled.h3`
+  text-align: center;
+`;
 function MainContent(props) {
   return (
-    <div className="main">
+    <main>
       <DatePicker />
-      <h2 className="day">Today: </h2>
+      <day>Today: </day>
       <PhotoOTD />
-    </div>
+    </main>
   );
 }
 export default MainContent;
