@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import styled from "styled-components";
-const imgPhotoOTD = styled.img`
+const ImgPhotoOTD = styled.img`
   width: 80%;
 `;
-const photoTitle = styled.h4`
+const PhotoTitle = styled.h4`
   color: #5d7fb9;
 `;
-const copyright = styled.p`
+const Copyright = styled.p`
   padding: 0 10%;
 `;
-const photoInfo = styled.p`
+const PhotoInfo = styled.p`
   padding: 0 12%;
 `;
 function PhotoOfTheDay() {
@@ -28,10 +28,10 @@ function PhotoOfTheDay() {
   console.log(data);
   return (
     <>
-      <imgPhotoOTD src={data.hdurl} alt={data.title}></imgPhotoOTD>
-      <photoTitle>{data.title}</photoTitle>
-      <copyright>Photo Copyright: {data.copyright}</copyright>
-      <photoInfo>{data.explanation}</photoInfo>
+      <ImgPhotoOTD src={data.hdurl} alt={data.title}></ImgPhotoOTD>
+      <PhotoTitle>{data.title}</PhotoTitle>
+      <Copyright>Photo Copyright: {data.copyright}</Copyright>
+      <PhotoInfo>{data.explanation}</PhotoInfo>
     </>
   );
 }

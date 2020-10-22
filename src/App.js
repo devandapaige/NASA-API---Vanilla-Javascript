@@ -2,12 +2,7 @@ import React from "react";
 import Header from "./Header";
 import MainContent from "./MainContent";
 import Footer from "./Footer";
-import styled from "styled-components";
-styled.body`
-  margin: 0;
-  background-color: black;
-  color: white;
-`;
+import "./App.css";
 function App() {
   return (
     <div>
