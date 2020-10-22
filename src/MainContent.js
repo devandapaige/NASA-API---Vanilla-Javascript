@@ -5,7 +5,7 @@ import DatePicker from "./DatePicker";
 const Main = styled.div`
   text-align: center;
 `;
-const Day = styled.h3`
+const Day = styled.h2`
   text-align: center;
 `;
 function MainContent(props) {

@@ -4,8 +4,9 @@ import styled from "styled-components";
 const ImgPhotoOTD = styled.img`
   width: 80%;
 `;
-const PhotoTitle = styled.h4`
-  color: #5d7fb9;
+const PhotoTitle = styled.h3`
+  color: #96b6ea;
+  letter-spacing: 0.1em;
 `;
 const Copyright = styled.p`
   padding: 0 10%;

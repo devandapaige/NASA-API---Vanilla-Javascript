@@ -5,6 +5,7 @@ import styled from "styled-components";
 const HeaderStyle = styled.header`
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: solid 3px #5d7fb9;
 `;
 const SiteName = styled.h1`
